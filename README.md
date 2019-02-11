@@ -36,8 +36,8 @@ Working on some cool features of Kotlin and how it compares with Java .
          val escString = "Kotlin escaped string!\n"
     - Raw string can contain newlines and arbitrary text, is delimited by a triple quote """ .
            val myString = """
-                   line 1 
-                   line 2
+                   line 1 <br />
+                   line 2 <br />
            """
 
 5) String concatenation
@@ -79,9 +79,9 @@ Working on some cool features of Kotlin and how it compares with Java .
  
      val result = when (operator) {
           "+" -> print("add")<br />
-          "-" -> print("sub")_
-          "*" -> print("mul")__
-          "/" -> print("div")__
+          "-" -> print("sub")<br />
+          "*" -> print("mul")<br />
+          "/" -> print("div")<br />
           else -> "$operator is invalid operator."
      }
 
