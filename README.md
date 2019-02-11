@@ -34,8 +34,8 @@ Working on some cool features of Kotlin and how it compares with Java .
     - Escaped string vs Raw Strings
     - Escaped string can contain escape characters in them
          val escString = "Kotlin escaped string!\n"
-    - Raw string can contain newlines and arbitrary text, is delimited by a triple quote """ .
-           val myString = """
+    - Raw string can contain newlines and arbitrary text, is delimited by a triple quote """ .<br />
+           val myString = """<br />
                    line 1 <br />
                    line 2 <br />
            """
