@@ -42,6 +42,7 @@ Working on some cool features of Kotlin and how it compares with Java .
 
 5) String concatenation
    
+   
     String firstName = "Varsha";                                 |   val firstName = "Varsha"; 
     String lastName = "Kanmuri";                                 |   val lastName = "Kanmuri";
     print("My name is: " + firstName + " " + lastName);          |   val message = "My name is: $firstName $lastName"
