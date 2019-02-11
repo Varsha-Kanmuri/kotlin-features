@@ -52,23 +52,23 @@ Working on some cool features of Kotlin and how it compares with Java .
    
                         val max = if (a > b) a else b            |    int max = (a>b) ? a : b
                         
- 7) In Kotlin, the type system distinguishes between references that can hold null (nullable references) and those that can not (non-null references).
+ 7) In Kotlin, the type system distinguishes between references that can hold null (nullable references) and those that can not (non-null references).<br />
  
-    var x: String = "one"
-    x = null // compilation error
+    var x: String = "one"<br />
+    x = null // compilation error<br />
 
-   Nullable string can be defined as follows, written String?:
-   var y: String? = "one"
-   y = null // ok
-   print(y)
+   Nullable string can be defined as follows, written String?:<br />
+   var y: String? = "one"<br />
+   y = null // ok<br />
+   print(y)<br />
 
-  Safe calls for accessing nullable values :
-    - val length = b?.length
+  Safe calls for accessing nullable values :<br />
+    - val length = b?.length<br />
     
 
-8) Range (..) of values :
+8) Range (..) of values :<br />
     
-    - Makes range comparision concise 
+    - Makes range comparision concise <br />
  
                       if (b>0 && b<10) { }                       |     if(b in 0..10)
                       
