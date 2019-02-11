@@ -78,10 +78,10 @@ Working on some cool features of Kotlin and how it compares with Java .
      val operator = "-"
  
      val result = when (operator) {
-          "+" -> print("add")
-          "-" -> print("sub")
-          "*" -> print("mul")
-          "/" -> print(:div")
+          "+" -> print("add")__
+          "-" -> print("sub")__
+          "*" -> print("mul")__
+          "/" -> print("div")__
           else -> "$operator is invalid operator."
      }
 
