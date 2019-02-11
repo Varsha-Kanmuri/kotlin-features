@@ -69,7 +69,7 @@ Working on some cool features of Kotlin and how it compares with Java .
     
     - Makes range comparision concise <br />
  
-                      if (b>0 && b<10) { }                       |     if(b in 0..10)<br />
+                      if (b>0 && b<10) { }                       |     if(b in 0..10)
                       
    
 9) "when" expression - Replacement for switch in java (ignore need of redundant break statement)<br/>
@@ -98,7 +98,7 @@ Working on some cool features of Kotlin and how it compares with Java .
       // member function
       fun printCourseName() {<br />
          print("You have opted for -"+name)<br />
-      }
+      }<br />
   }
 
   //Creating object of type Course
