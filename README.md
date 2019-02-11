@@ -46,5 +46,46 @@ Working on some cool features of Kotlin and how it compares with Java .
     String lastName = "Kanmuri";                                 |   val lastName = "Kanmuri";
     print("My name is: " + firstName + " " + lastName);          |   val message = "My name is: $firstName $lastName"
     
+6) if-else expression 
+   
+   - In Kotlin, if is an expression, i.e. it returns a value. Therefore there is no ternary operator (condition ? then : else)
+   
+                        val max = if (a > b) a else b            |    int max = (a>b) ? a : b
+                        
+ 7) In Kotlin, the type system distinguishes between references that can hold null (nullable references) and those that can not (non-null references).
+ 
+    var x: String = "one"
+    x = null // compilation error
 
+   Nullable string can be defined as follows, written String?:
+   var y: String? = "one"
+   y = null // ok
+   print(y)
+
+  Safe calls for accessing nullable values :
+    - val length = b?.length
     
+
+8) Range (..) of values :
+    
+    - Makes range comparision concise 
+ 
+                      if (b>0 && b<10) { }                       |     if(b in 0..10)
+                      
+   
+9) "when" expression - Replacement for switch in java (ignore need of redundant break statement)
+     
+     val operator = "-"
+ 
+     val result = when (operator) {
+          "+" -> print("add")
+          "-" -> print("sub")
+          "*" -> print("mul")
+          "/" -> print(:div")
+          else -> "$operator is invalid operator."
+     }
+
+10) Collections in Kotlin
+
+      - Simpler way to create collections :
+           val items = listOf(1, 2, 3)
