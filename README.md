@@ -88,3 +88,21 @@ Working on some cool features of Kotlin and how it compares with Java .
 
       - Simpler way to create collections :
            val items = listOf(1, 2, 3)
+
+11) Creating Objects and Classes in Kotlin
+
+    class Course {
+
+       private var name: String = "Computers"
+   
+      // member function
+      fun printCourseName() {
+         print("You have opted for -"+name)
+      }
+  }
+
+  //Creating object of type Course
+   fun main(args: Array<String>) {
+        val obj = Course() // the "new" operator is ommited
+        obj.printCourseName()
+   }
