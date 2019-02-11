@@ -31,9 +31,9 @@ Working on some cool features of Kotlin and how it compares with Java .
                        
 4) String literals
 
-    - Escaped string vs Raw Strings
-    - Escaped string can contain escape characters in them
-         val escString = "Kotlin escaped string!\n"
+    - Escaped string vs Raw Strings<br />
+    - Escaped string can contain escape characters in them<br />
+         val escString = "Kotlin escaped string!\n"<br />
     - Raw string can contain newlines and arbitrary text, is delimited by a triple quote """ .<br />
            val myString = """<br />
                    line 1 <br />
@@ -47,7 +47,7 @@ Working on some cool features of Kotlin and how it compares with Java .
     
 6) if-else expression 
    
-   - In Kotlin, if is an expression, i.e. it returns a value. Therefore there is no ternary operator (condition ? then : else)
+   - In Kotlin, if is an expression, i.e. it returns a value. Therefore there is no ternary operator (condition ? then : else)<br />
    
                         val max = if (a > b) a else b            |    int max = (a>b) ? a : b
                         
@@ -69,12 +69,12 @@ Working on some cool features of Kotlin and how it compares with Java .
     
     - Makes range comparision concise <br />
  
-                      if (b>0 && b<10) { }                       |     if(b in 0..10)
+                      if (b>0 && b<10) { }                       |     if(b in 0..10)<br />
                       
    
-9) "when" expression - Replacement for switch in java (ignore need of redundant break statement)
+9) "when" expression - Replacement for switch in java (ignore need of redundant break statement)<br/>
      
-     val operator = "-"
+     val operator = "-"<br />
  
      val result = when (operator) {
           "+" -> print("add")<br />
@@ -86,23 +86,23 @@ Working on some cool features of Kotlin and how it compares with Java .
 
 10) Collections in Kotlin
 
-      - Simpler way to create collections :
-           val items = listOf(1, 2, 3)
+      - Simpler way to create collections :<br />
+           val items = listOf(1, 2, 3)<br />
 
 11) Creating Objects and Classes in Kotlin
 
-    class Course {
+    class Course {<br />
 
-       private var name: String = "Computers"
+       private var name: String = "Computers"<br />
    
       // member function
-      fun printCourseName() {
-         print("You have opted for -"+name)
+      fun printCourseName() {<br />
+         print("You have opted for -"+name)<br />
       }
   }
 
   //Creating object of type Course
-   fun main(args: Array<String>) {
-        val obj = Course() // the "new" operator is ommited
-        obj.printCourseName()
+   fun main(args: Array<String>) {<br />
+        val obj = Course() // the "new" operator is ommited<br />
+        obj.printCourseName()<br />
    }
